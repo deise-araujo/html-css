@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas 
+            em, ex, rem vw, vh, % 
+            16px geralmrnte e igual a 1em
+            16px/1em são normalmente o padrao do site.
+            */
+            font-size: 1em;
+
+            /*
+            weigth(peso), width(largura), height(altura) 
+
+            lighter normal bold bolder(ou vc pode colocar de 100 até 900*/
+            
+        }
+
+        h1{
+            /*
+            Shorthand font
+            font-style -> font-size -> font-family
+
+            font-family: Arial;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em arial;
+        }
+
+        h2{
+            font: bold 2m arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia expedita tempora voluptas delectus numquam accusamus iure aliquid quos labore nisi error qui aut cumque, enim adipisci dolor, illo quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis corrupti aliquam vel unde id distinctio ipsa eaque voluptas architecto tempora commodi aut, nihil rerum natus iusto, molestias nulla quas!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A minus repudiandae, provident doloribus temporibus magnam deserunt, veniam blanditiis vel id facere quam, quisquam aliquam in explicabo commodi libero ab molestias.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore est, quas cum molestias voluptate sapiente dicta ipsum a nihil quia, cumque unde dignissimos aspernatur, exercitationem accusantium ut consectetur necessitatibus iste!</p>
+</body>
+</html>

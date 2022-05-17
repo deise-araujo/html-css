@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            
+        }
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        header > h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.326);
+            text-align: center;
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin-top: 5px;
+            box-shadow: 5px 3px 7px -2px rgba(0, 0, 0, 0.278);
+            padding-bottom: 10px;
+        }
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            font-size: small;
+        }
+        article > h3 {
+            text-decoration: underline;
+        }
+        div > p {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Notícias Brasil</h1>
+        <nav>
+            <a href="#">Notícias</a>
+            <a href="#">Informações</a>
+            <a href="#">Books</a>
+            <a href="#">Links</a>
+            <a href="#">Promoções</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <div>
+                    <h2>Notícias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia facere eum delectus corporis cumque expedita nesciunt eaque dolores, fuga magnam architecto rerum aspernatur sit maiores ipsum accusamus accusantium labore!</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </div>
+            
+                <div>
+                    <h2>Notícias do dia</h2>
+                    <h3>Mais importantes</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos fugit quidem tenetur beatae ipsum, quos quo perspiciatis, eaque deserunt illo similique vero excepturi! Quos assumenda corporis, vel dicta labore eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis incidunt similique exercitationem itaque tempore necessitatibus dolorum assumenda inventore quae! Perferendis suscipit a temporibus dolorum explicabo corporis error expedita reiciendis!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptates ducimus perspiciatis natus officia, expedita ut dolorum numquam ipsa quasi explicabo doloribus non quisquam laborum blanditiis. Aliquam animi dicta maxime?</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </div>
+            
+                <div>
+                    <h3>Interessantes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim ab alias eligendi ut qui nesciunt minus at officiis, nisi vitae esse ipsam corrupti beatae mollitia sint amet impedit aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptates quibusdam, reprehenderit odio quo voluptatem labore quod consectetur doloribus id totam amet? Alias, consequatur! Optio iusto hic facere ut totam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vero officia quis error non et eligendi odio. Perferendis, explicabo laboriosam consequuntur illum optio eius quidem, ducimus, quae dolore ex ea.</p>
+                </div>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="Promoçoes">
+            <article>
+                <h2>Promoções de celulares</h2>
+                <h4>Sansung</h4>
+                <p>R$1.500</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo reiciendis voluptas dolore omnis odit quis quisquam accusantium? Et quos labore laboriosam voluptatibus quam corrupti at, distinctio ab amet sit?</p>
+                <h4>Motorola</h4>
+                <p>R$1.000</p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi laudantium expedita mollitia fuga vel, iste quae, tempore itaque amet aspernatur perspiciatis architecto exercitationem quis, similique recusandae eaque illo consequatur consequuntur?
+                <h4>LG</h4>
+                <p>R$1.500</p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, provident dolores molestiae magnam enim earum porro ad in optio a corrupti reiciendis asperiores fugiat, tenetur eum quia assumenda modi saepe!
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo / Deise</p>
+    </footer>
+
+</body>
+</html>
