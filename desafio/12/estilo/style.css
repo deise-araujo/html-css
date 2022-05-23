@@ -49,6 +49,7 @@ section {
 }
 
 main p {
+    padding-bottom: 2em;
     padding-left: 10px;
     font-family: 'Sriracha', cursive;
 }
@@ -60,13 +61,14 @@ background-color: white;
 
 .image {
     background-color: rgb(60, 60, 60);
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.476);
     color: white;
 }
 
 #image1 {
     background-image: url(../imagens/background001.jpg);
 
+    background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,6 +78,7 @@ background-color: white;
 #image2 {
     background-image: url(../imagens/background002.jpg);
 
+    background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -86,6 +89,7 @@ background-color: white;
     display:inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.324);
+    text-shadow: 2px 1px rgb(0, 0, 0);
 }
 
 footer {
