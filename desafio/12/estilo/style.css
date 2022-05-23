@@ -45,6 +45,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-size: 3.5vw;
 }
 
 main p {
@@ -82,7 +83,8 @@ background-color: white;
 }
 
 .image > p {
-    max-width: 29%;
+    display:inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.324);
 }
 
